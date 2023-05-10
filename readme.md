@@ -6,16 +6,16 @@ Documentação api: [https://www.football-data.org/documentation/quickstart](htt
 
 Liberado utlizar qualquer biblioteca de estilos como Bootstrap, Tailwind,Material, etc.
 
-API email:
+API email: REMOVIDO
 
-API token:
+API token: REMOVIDO
 
 ### Objetivo
 
 - Listar todas as competições de Futebol do Mundo (Se tiver logo mostrar).
 - Ao clicar em uma competicão ir listar os clubes participantes dela (Se tiver logo mostrar).
 
-Com o projeto concluído, utiizar o github para subir o projeto público, e enviar o link do projeto para o email romulo@o2projetos.com.br
+Com o projeto concluído, utiizar o github para subir o projeto público, e enviar o link do projeto para o email REMOVIDO
 
 ## O que será avaliado
 
