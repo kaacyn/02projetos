@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body a{
+	text-decoration: none!important;
+}
+
+body a{
+	 color: #00223b;
+}
+
+header{
+	background-color: #00223b;
+	color: #FDF315;
+	padding: 20px;
+	border-bottom: 5px #4C5051 solid;
+	margin-bottom: 60px;
+	text-transform: uppercase;
+}
+
+header a{
+	color: #FDF315;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+header a:hover{
+	color: #FDF315;
+	text-decoration: none;
+}
+
+.competicao .competicao_descricao h2{
+	margin-bottom: 5px;
+}
+
+.competicao .competicao_descricao h2 a{
+	font-size: 22px;
+
+}
+
+.competicao{
+	background-color: #EFEFEF;
+	margin-bottom:22px;
+	position: relative;
+}
+
+
+.competicao .competicao_descricao{
+	padding: 20px 0;
+
+}
+
+.time_box {
+	background: #EFEFEF;
+	margin-bottom: 30px;
+	height: 270px;
+	position: relative;
+}
+
+.time_box .nome{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background-color: #00223b;
+	left:0;
+	padding: 10px;
+	color: floralwhite;
+	white-space: nowrap;
+
+}
+
+.competicao .imagem_corpo{
+	padding: 20px 0 20px  20px;
+	height: 100%;
+	
+}
+
+.time_box .imagem_corpo{
+	padding: 20px 20px 60px  20px;
+	height: 100%;
+	opacity: 0.8;
+	
+}
+
+.time_box .imagem_corpo:hover{
+	opacity: 1;
+	transition: opacity 1s;
+}
+
+.time_box .imagem_corpo .imagem,
+.competicao .imagem_corpo .imagem{
+	margin: auto;
+	height: 100%;
+}
+
+.time_box .imagem_corpo .helper,
+.competicao .imagem_corpo .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+.time_box .imagem_corpo .imagem img,
+.competicao .imagem_corpo .imagem img{
+	margin: 0 auto;
+	max-width: 234px;
+	max-height: 190px;
+	min-height: 140px;
+	vertical-align: middle;
+}
+
+.time_box .imagem_corpo .imagem,
+.competicao .imagem_corpo .imagem {
+	text-align: center;
+	width: 100%;
+	
+}
+
+.competicao .acao{
+	text-align: right;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+.data{
+	color: #999;
+	font-size: 12px;
+}
+
+.nav{
+	margin-bottom: 15px;
+}
+
+.nav ul li{
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.nav ul li a{
+	font-weight: bold;
+}
+
+footer{
+	background-color: #00223b;
+	padding: 20px;
+	text-align: center;
+	color: #FDF315;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 56px;
+}
+
+footer .assinatura {
+	font-size: 12px;
+	color: #EFEFEF;
+}
+
+#page-container {
+	position: relative;
+	min-height: 100vh;
+  }
+  
+#content-wrap {
+	padding-bottom: 56px;
+}
+
+@media (max-width: 767px){
+
+	header a{
+		font-size: 16px;
+		text-align: center;
+	}
+	.competicao .competicao_descricao {
+		padding: 20px 20px 80px 20px;
+	}
+
+}
